@@ -1,5 +1,6 @@
   @import url(./modules/layout.css);
   @import url(./modules/header.css);
+  @import url(./modules/cta.css);
 
   body{
       font-family: "Lora", serif;
