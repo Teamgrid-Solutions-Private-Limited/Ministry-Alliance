@@ -162,26 +162,7 @@
             line-height: 1.4;
         }
 
-        /* Small floating chat/icon badge */
-        .floating-badge {
-            position: absolute;
-            bottom: -60px;
-            left: 10%;
-            background: white;
-            padding: 10px;
-            border-radius: 50% 50% 50% 10%; /* Bubble shape */
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            width: 60px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .floating-badge svg {
-            width: 35px;
-            height: 35px;
-        }
+       
 
         /* Responsive Design */
         @media (max-width: 992px) {
@@ -216,7 +197,5 @@
             .hero p {
                 font-size: 16px;
             }
-            .floating-badge {
-                display: none; /* Hide on small mobile to save space */
-            }
+            
         }
