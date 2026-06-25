@@ -1,78 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ministry Alliance</title>
-    <!-- Importing a serif font for the main heading to match the image -->
+
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="https://use.typekit.net/byh4wcl.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
+
 <body>
 
-    <div class="layout-container">
-        <header>
-            <div class="container header-inner">
-                <!-- Logo -->
-                <a href="#" class="logo-area">
-                    <!-- SVG approximating the shield icon -->
-                    <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M50 5 L10 20 L10 50 C10 75 30 90 50 95 C70 90 90 75 90 50 L90 20 Z" fill="#0b7a9f"/>
-                        <path d="M50 5 L10 20 L10 50 C10 75 30 90 50 95 Z" fill="#8dc63f"/>
-                        <path d="M50 15 L20 28 L20 52 C20 70 35 82 50 85 C65 82 80 70 80 52 L80 28 Z" fill="#f8f9fa"/>
-                        <path d="M50 15 L80 28 L80 52 C80 70 65 82 50 85 Z" fill="#f4a222"/>
-                        <path d="M50 15 L50 85 C35 82 20 70 20 52 L20 28 Z" fill="#ffffff"/>
-                        <path d="M35 35 C45 25 55 25 65 35 C75 50 65 70 50 75 C35 70 25 50 35 35 Z" fill="#44b449"/>
-                        <path d="M50 75 C65 70 75 50 65 35 C55 25 50 30 50 40 Z" fill="#f4a222"/>
-                        <path d="M35 35 C45 25 50 30 50 40 L50 75 C35 70 25 50 35 35 Z" fill="#0b7a9f"/>
-                    </svg>
-                    <div class="logo-text">
-                        <span class="logo-text-top">Ministry</span>
-                        <span class="logo-text-bottom">Alliance&trade;</span>
+<header>
+    <div class="layout-container header-inner">
+
+        <!-- Logo -->
+        <a href="#" class="logo-area">
+            <img src="./assets/images/ministryLogo.jpg" alt="Logo" class="logo-icon" />
+        </a>
+
+        <!-- Navigation -->
+        <nav>
+            <ul>
+
+                <li class="has-dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        Programs
+                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none">
+                            <path d="M0.333496 2.33325L4.00016 6.33325L7.66683 2.33325"
+                                stroke="#2A2A2A" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+
+                    <div class="dropdown-menu">
+                        <a href="#">
+                            <strong>Member Ministry Program</strong>
+                            <span>Operational Support for Your Ministry</span>
+                        </a>
+
+                        <a href="#">
+                            <strong>Passages Program</strong>
+                            <span>Sponsored Ministry During Retirement</span>
+                        </a>
                     </div>
-                </a>
+                </li>
 
-                <!-- Navigation -->
-                <nav>
-                    <ul>
-                        <li><a href="#">Programs <span class="dropdown-arrow">▼</span></a></li>
-                        <li><a href="#">Membership <span class="dropdown-arrow">▼</span></a></li>
-                        <li><a href="#">Ministries</a></li>
-                        <li><a href="#">About Us <span class="dropdown-arrow">▼</span></a></li>
-                        <li><a href="#">Resources <span class="dropdown-arrow">▼</span></a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Ministries</a></li>
 
-                <!-- Action Button -->
-                <a href="#" class="btn btn-donate">Donate</a>
-            </div>
-        </header>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </nav>
+
+        <a href="#" class="btn btn-donate">Donate</a>
+
     </div>
+</header>
 
-    <!-- Main Hero Section (outside layout container to stretch full width optionally, though here I kept background full width) -->
-    <main>
-        <section class="hero">
-            <div class="hero-overlay"></div>
-            <div class="container hero-content">
-                
-              
+<main>
 
-                <h1>Run Your Ministry<br>With Ease.</h1>
-                <p>The simplest way to launch, grow, and sustain your Christ-centered ministry<br>without administrative burden.</p>
-                <a href="#" class="btn btn-contact">Contact Us</a>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+            <h1>Run Your Ministry<br>With Ease.</h1>
+            <p>The simplest way to launch, grow, and sustain your Christ-centered ministry without administrative burden.</p>
+            <a href="#" class="btn btn-contact">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- TASK SECTION -->
+    <section class="tasks-section">
+        <div class="layout-container">
+            <div class="container">
+
+                <div class="tasks-header">
+                    <h2>Are These Tasks Delaying<br>Your Mission?</h2>
+                </div>
+
+                <div class="tasks-grid">
+
+                    <div class="task-item">
+                        <div class="task-icon-box"></div>
+                        <p>Legal Compliance</p>
+                    </div>
+
+                    <div class="task-item">
+                        <div class="task-icon-box"></div>
+                        <p>Daily Bookkeeping</p>
+                    </div>
+
+                    <div class="task-item">
+                        <div class="task-icon-box"></div>
+                        <p>Donation Processing</p>
+                    </div>
+
+                    <div class="task-item">
+                        <div class="task-icon-box"></div>
+                        <p>Tax Receipts</p>
+                    </div>
+
+                </div>
+
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+
+</main>
+
+<script src="./assets/js/main.js"></script>
 
 </body>
 </html>

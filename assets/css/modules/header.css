@@ -11,18 +11,73 @@
             align-items: center;
         }
 
-        /* Logo Area */
-        .logo-area {
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            gap: 10px;
-        }
+        header .layout-container > a {
+    display: flex;
+    align-items: center;
+   
+}
 
-        .logo-icon {
-            width: 45px;
-            height: auto;
-        }
+header .layout-container > a img {
+    width: 180px;
+    height: auto;
+    object-fit: contain;
+}
+nav ul li {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: calc(100% + 16px);
+    left: 0;
+    min-width: 260px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.12);
+    padding: 12px;
+    display: none;
+    z-index: 1000;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: #2A2A2A;
+}
+
+.dropdown-menu a:hover {
+    background: #f8f8f8;
+}
+
+.dropdown-menu strong {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.dropdown-menu span {
+    display: block;
+    font-size: 12px;
+    color: #777;
+    line-height: 1.4;
+}
+
+.has-dropdown.active .dropdown-menu {
+    display: block;
+}
+
+.has-dropdown.active > a svg {
+    transform: rotate(180deg);
+}
+
+.has-dropdown svg {
+    transition: .3s ease;
+}
+
+        /* Logo Area */
+       
 
         .logo-text {
             display: flex;
