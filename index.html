@@ -1,12 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ministry Alliance</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link
       rel="stylesheet"
@@ -14,133 +17,130 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</head>
+  </head>
 
-<body>
-
-<header>
-    <div class="layout-container header-inner">
-
+  <body>
+    <header>
+      <div class="layout-container header-inner">
         <!-- Logo -->
         <a href="#" class="logo-area">
-            <img src="./assets/images/ministryLogo.jpg" alt="Logo" class="logo-icon" />
+          <img
+            src="./assets/images/ministryLogo.jpg"
+            alt="Logo"
+            class="logo-icon"
+          />
         </a>
 
         <!-- Navigation -->
         <nav>
-            <ul>
+          <ul>
+            <li class="has-dropdown">
+              <a href="#" class="dropdown-toggle">
+                Programs
+                <svg width="8" height="8" viewBox="0 0 8 8" fill="none">
+                  <path
+                    d="M0.333496 2.33325L4.00016 6.33325L7.66683 2.33325"
+                    stroke="#2A2A2A"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
 
-                <li class="has-dropdown">
-                    <a href="#" class="dropdown-toggle">
-                        Programs
-                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none">
-                            <path d="M0.333496 2.33325L4.00016 6.33325L7.66683 2.33325"
-                                stroke="#2A2A2A" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
+              <div class="dropdown-menu">
+                <a href="#">
+                  <strong>Member Ministry Program</strong>
+                  <span>Operational Support for Your Ministry</span>
+                </a>
 
-                    <div class="dropdown-menu">
-                        <a href="#">
-                            <strong>Member Ministry Program</strong>
-                            <span>Operational Support for Your Ministry</span>
-                        </a>
+                <a href="#">
+                  <strong>Passages Program</strong>
+                  <span>Sponsored Ministry During Retirement</span>
+                </a>
+              </div>
+            </li>
 
-                        <a href="#">
-                            <strong>Passages Program</strong>
-                            <span>Sponsored Ministry During Retirement</span>
-                        </a>
-                    </div>
-                </li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Ministries</a></li>
 
-                <li><a href="#">Membership</a></li>
-                <li><a href="#">Ministries</a></li>
-
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Contact</a></li>
-
-            </ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </nav>
 
         <a href="#" class="btn btn-donate">Donate</a>
+      </div>
+    </header>
 
-    </div>
-</header>
-
-<main>
-
-    <!-- HERO -->
-    <section class="hero">
+    <main>
+      <!-- HERO -->
+      <section class="hero">
         <div class="hero-overlay"></div>
 
         <div class="container hero-content">
-            <h1>Run Your Ministry<br>With Ease.</h1>
-            <p>The simplest way to launch, grow, and sustain your Christ-centered ministry without administrative burden.</p>
-            <a href="#" class="btn btn-contact">Contact Us</a>
-        </div>
-    </section>
-
-    <!-- TASK SECTION -->
-    <section class="tasks-section">
-        <div class="layout-container">
-            <div class="container">
-
-                <div class="tasks-header">
-                    <h2>Are These Tasks Delaying<br>Your Mission?</h2>
-                </div>
-
-                <div class="tasks-grid">
-
-                    <div class="task-item">
-                        <div class="task-icon-box"></div>
-                        <p>Legal Compliance</p>
-                    </div>
-
-                    <div class="task-item">
-                        <div class="task-icon-box"></div>
-                        <p>Daily Bookkeeping</p>
-                    </div>
-
-                    <div class="task-item">
-                        <div class="task-icon-box"></div>
-                        <p>Donation Processing</p>
-                    </div>
-
-                    <div class="task-item">
-                        <div class="task-icon-box"></div>
-                        <p>Tax Receipts</p>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-</main>
-
-
-    <section class="cta-banner-section">
-  <div class="layout-container">
-    <div class="container">
-      <div class="cta-banner-content">
-        <div class="cta-banner-text">
-          <h1>Get Back Your Most Valuable Asset—Time</h1>
-
+          <h1>Run Your Ministry<br />With Ease.</h1>
           <p>
-            Stay focused on the mission God placed in your hands.
+            The simplest way to launch, grow, and sustain your Christ-centered
+            ministry without administrative burden.
           </p>
+          <a href="#" class="btn btn-contact">Contact Us</a>
+        </div>
+      </section>
 
-          <div class="cta-banner-button">
-            <a href="#">Schedule an Interview</a>
+      <!-- TASK SECTION -->
+      <section class="tasks-section">
+        <div class="layout-container">
+          <div class="container">
+            <div class="tasks-header">
+              <h2>Are These Tasks Delaying<br />Your Mission?</h2>
+            </div>
+
+            <div class="tasks-grid">
+              <div class="task-item">
+                <div class="task-icon-box"></div>
+                <p>Legal Compliance</p>
+              </div>
+
+              <div class="task-item">
+                <div class="task-icon-box"></div>
+                <p>Daily Bookkeeping</p>
+              </div>
+
+              <div class="task-item">
+                <div class="task-icon-box"></div>
+                <p>Donation Processing</p>
+              </div>
+
+              <div class="task-item">
+                <div class="task-icon-box"></div>
+                <p>Tax Receipts</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
+      
+      <!-- //CTA SECTION -->
+      <section class="cta-banner-section">
+        <div class="layout-container">
+          <div class="container">
+            <div class="cta-banner-content">
+              <div class="cta-banner-text">
+                <h1>Get Back Your Most Valuable Asset—Time</h1>
 
-<script src="./assets/js/main.js"></script>
+                <p>Stay focused on the mission God placed in your hands.</p>
 
-</body>
+                <div class="cta-banner-button">
+                  <a href="#">Schedule an Interview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
