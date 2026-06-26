@@ -2,6 +2,10 @@
 @import url(./modules/header.css);
 @import url(./modules/tasksection.css);
 @import url(./modules/cta.css);
+@import url(./modules/blog.css);
+@import url(./modules/faq.css);
+@import url(./modules/blogfeeds.css);
+
 
 body {
   font-family: "Lora", serif;

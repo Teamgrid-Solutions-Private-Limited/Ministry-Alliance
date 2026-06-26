@@ -14,3 +14,8 @@
  
   
 }
+.header-wrapper {
+  width: 100%;
+  max-width: 1399px;
+  margin: 0 auto;
+}
