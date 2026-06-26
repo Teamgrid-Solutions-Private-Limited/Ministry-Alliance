@@ -2,6 +2,9 @@
 @import url(./modules/header.css);
 @import url(./modules/tasksection.css);
 @import url(./modules/cta.css);
+@import url(./modules/membershipSection.css);
+@import url(./modules/testimonialSection.css);
+@import url(./modules/footer.css);
 
 body {
   font-family: "Lora", serif;
