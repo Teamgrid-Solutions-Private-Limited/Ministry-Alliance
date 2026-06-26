@@ -1,0 +1,365 @@
+.article-page-wrapper {
+  padding: 60px 40px;
+}
+
+/* Header Section */
+.article-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.article-header > span {
+
+
+  display: inline-block;
+  background-color: #079;
+  color:#FFF;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-style: normal;
+  line-height: 14px;
+  font-family: "Aktiv Grotesk";
+}
+
+.article-page-wrapper h1 {
+    color: var(--Dark-Grey, #2A2A2A);
+text-align: center;
+
+/* H2 */
+font-family: Lora;
+font-size: 44px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; /* 113.636% */
+  margin-bottom: 20px;
+  max-width: 933px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-meta  {
+    color: var(--Dark-Grey, #2A2A2A);
+font-family: "Aktiv Grotesk";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 133.333% */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+ 
+}
+
+.author-date {
+  display: inline-block;
+}
+
+/* Social Share Icons */
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 31px;
+  height: 32px;
+  background-color: #000000; /* Default black background, can be overridden for each platform */
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+/* .social-btn:hover {
+            background-color: #000000;
+            transform: translateY(-2px);
+        } */
+
+.social-btn svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+/* Featured Image Section */
+.article-featured-media {
+  margin-bottom: 40px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-page-wrapper img {
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+  /* Placeholder dimension logic just to ensure it looks good */
+  max-height: 600px;
+}
+
+.media-caption {
+  color: var(--Neutral-900, #111827);
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 12px;
+  text-align: left;
+}
+
+/* Article Content Section */
+.article-content {
+  max-width: 859px;
+  margin: 0 auto;
+}
+
+.article-page-wrapper p {
+    overflow: hidden;
+color: var(--Text-body, #4A4848);
+text-overflow: ellipsis;
+
+/* body */
+font-family: Inter;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 147.059% */
+letter-spacing: -0.439px;
+
+  
+
+  /* Paragraph/Large/Regular */
+ 
+  margin-bottom: 40px;
+}
+
+/* Subtitle Styling matching the second spec image */
+.article-page-wrapper h2 {
+color: var(--Text-body, #4A4848);
+font-family: Lora;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px; /* 120% */
+margin:40px 0 40px 0;
+}
+
+/* Pull Quote Block matching the second spec image */
+.pull-quote-block {
+  border-left: 4px solid #079;
+  padding: 8px 0 8px 32px;
+  margin: 40px 0;
+  position: relative;
+}
+
+.pull-quote-icon {
+  color: #079;
+  font-size: 2.5rem;
+  line-height: 1;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  margin-bottom: 4px;
+  user-select: none;
+}
+
+.pull-quote-text {
+    color: var(--ColorPrimary, #079);
+font-family: "Proxima Nova";
+font-size: 32px;
+font-style: italic;
+font-weight: 600;
+line-height: 40px; /* 125% */
+
+ 
+  margin-bottom: 12px;
+}
+
+.pull-quote-attribution {
+    color: var(--ColorPrimary, #079);
+font-family: "Proxima Nova";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+
+}
+
+.article-footer-meta {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1000px; /* same as image section */
+  margin: 0 auto; /* center align */
+  gap: 12px;
+  margin-top: 40px;
+  border-top: 1px solid #000000;
+  padding-top: 40px;
+}
+
+.footer-meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.meta-tags-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tag-icon-svg {
+  width: 18px;
+  height: 18px;
+  color: #4b5563;
+  flex-shrink: 0;
+}
+
+.meta-tags-container a {
+  color: var(--text-orange);
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 111.111% */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.meta-tags-container a:hover {
+  color: #d66c14;
+}
+
+.meta-share-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: #ffffff;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.footer-share-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* Distinct branding colors for the footer sharing buttons */
+.footer-share-btn.telegram {
+  background-color: #616161; /* Matches the grey telegram circle in the image */
+}
+.footer-share-btn.facebook {
+  background-color: #3b5998; /* Matches Facebook blue */
+}
+.footer-share-btn.x {
+  background-color: #000000; /* Matches X black */
+}
+
+.footer-share-btn svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+
+/* Back to Latest News Link block */
+.back-navigation {
+color: var(--ColorPrimary, #079);
+font-family: "Proxima Nova";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+display: inline-flex;
+align-items: center;
+gap: 6px;
+margin-top: 4px;
+}
+
+.back-navigation:hover {
+  color: var(--brand-purple);
+  text-decoration: underline;
+}
+
+.back-navigation svg {
+  width: 16px;
+  height: 16px;
+  stroke-width: 3px; /* Strong, bold stroke matching the design */
+}
+
+/* ---------------------------------------------------
+           4. css/responsive.css - Media Queries
+           --------------------------------------------------- */
+@media (max-width: 768px) {
+  .article-page-wrapper {
+    padding: 40px 40px;
+  }
+
+.article-page-wrapper h1 {
+    font-size: 2rem;
+  }
+
+  .article-meta {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .article-content p {
+    font-size: 1.05rem;
+  }
+  .article-page-wrapper h2 {
+    font-size: 1.5rem;
+  }
+
+  .pull-quote-text {
+    font-size: 1.25rem;
+  }
+
+  .footer-meta-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .meta-share-container {
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .article-title {
+    font-size: 1.75rem;
+  }
+  .article-header >  span {
+    font-size: 10px;
+  }
+}
