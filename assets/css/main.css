@@ -6,6 +6,9 @@
 @import url(./modules/faq.css);
 @import url(./modules/blogfeeds.css);
 
+@import url(./modules/membershipSection.css);
+@import url(./modules/testimonialSection.css);
+@import url(./modules/footer.css);
 
 body {
   font-family: "Lora", serif;
