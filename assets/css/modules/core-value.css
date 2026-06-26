@@ -1,0 +1,199 @@
+/*==============================
+Core Values
+==============================*/
+
+.core-values-section {
+    background: #fff;
+    padding: 90px 30px;
+}
+
+
+/*==============================
+Heading
+==============================*/
+
+.core-values-heading {
+    max-width: 760px;
+    margin: 0 auto 70px;
+    text-align: center;
+}
+
+.core-values-heading>* {
+    margin: 0;
+}
+
+.core-values-heading>*:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.core-values-heading h2 {
+    color: #2A2A2A;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.core-values-heading p {
+    color: #2A2A2A;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/*==============================
+List
+==============================*/
+
+.core-values-list {
+    border-top: 1px solid #A0A0A0;
+}
+
+/*==============================
+Item
+==============================*/
+
+.core-value-item {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    column-gap: clamp(50px, 10vw, 200px);
+    align-items: center;
+    padding: 28px 0;
+    border-bottom: 1px solid #A0A0A0;
+}
+
+/*==============================
+Title
+==============================*/
+
+.core-value-title>* {
+    margin: 0;
+}
+
+.core-value-title h3 {
+    color: #2A2A2A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/*==============================
+Description
+==============================*/
+
+.core-value-description {
+    max-width: 592px;
+}
+
+.core-value-description p {
+    color: #2A2A2A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/*==============================
+Responsive
+==============================*/
+
+@media (max-width:992px) {
+
+    .core-values-section {
+        padding: 70px 40px;
+    }
+
+    .core-values-heading {
+        margin-bottom: 55px;
+    }
+
+    .core-values-heading h2 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .core-values-heading p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .core-value-item {
+        grid-template-columns: 220px 1fr;
+        gap: 35px;
+    }
+
+    .core-value-title h3 {
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .core-values-section {
+        padding: 60px 20px;
+    }
+
+    .core-value-item {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        padding: 24px 0;
+    }
+
+    .core-value-title {
+        text-align: left;
+    }
+
+    .core-value-description {
+        text-align: left;
+    }
+
+    .core-values-heading h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .core-value-title h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .core-values-heading p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+}
+
+@media (max-width:576px) {
+
+    .core-values-section {
+        padding: 50px 16px;
+    }
+
+    .core-values-heading {
+        margin-bottom: 40px;
+    }
+
+    .core-values-heading h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .core-values-heading p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .core-value-title h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .core-value-description p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+}
