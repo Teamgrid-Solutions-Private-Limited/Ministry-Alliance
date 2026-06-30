@@ -1,0 +1,226 @@
+/*==============================
+Statement of Belief
+==============================*/
+
+.belief-section {
+    background: var(--Gradient-2, linear-gradient(179deg, var(--ColorPrimary, #079) 0.54%, #035066 33.13%, #043C4D 55.1%, #053340 71.52%, #052933 99.46%));
+    padding: 90px 20px;
+}
+
+.belief-container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/*==============================
+Heading
+==============================*/
+
+.belief-heading {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 70px;
+}
+
+.belief-heading > * {
+    margin: 0;
+}
+
+.belief-heading > *:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+.belief-heading h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.belief-heading p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+/*==============================
+Grid
+==============================*/
+
+.belief-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px 35px;
+}
+
+.belief-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    flex: 0 1 calc(25% - 27px);
+    max-width: 260px;
+}
+
+
+/*==============================
+Icon
+==============================*/
+
+.belief-icon {
+    width: 84px;
+    height: 84px;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+}
+
+.belief-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/*==============================
+Content
+==============================*/
+
+.belief-content > * {
+    margin: 0;
+}
+
+.belief-content > *:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.belief-content h3 {
+    color: #FFF;
+    font-family: "Lora", serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.belief-content p {
+    color: rgba(255,255,255,.9);
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+/*==============================
+Responsive
+==============================*/
+/* Large Tablets */
+@media (max-width: 1200px) {
+    .belief-grid {
+        gap: 50px 25px;
+    }
+
+    .belief-card {
+        flex: 0 1 calc(25% - 20px);
+    }
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+    .belief-section {
+        padding: 70px 20px;
+    }
+
+    .belief-heading {
+        margin-bottom: 60px;
+    }
+
+    .belief-heading h2 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .belief-heading p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .belief-grid {
+        gap: 50px 30px;
+    }
+
+    .belief-card {
+        flex: 0 1 calc(50% - 15px);
+        max-width: 320px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .belief-section {
+        padding: 60px 20px;
+    }
+
+    .belief-heading h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .belief-heading p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .belief-icon {
+        width: 72px;
+        height: 72px;
+    }
+
+    .belief-content h3 {
+        font-size: 24px;
+    }
+
+    .belief-card {
+        flex: 0 1 calc(50% - 15px);
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 576px) {
+    .belief-grid {
+        gap: 45px;
+    }
+
+    .belief-card {
+        flex: 0 1 100%;
+        max-width: 100%;
+    }
+
+    .belief-heading {
+        margin-bottom: 45px;
+    }
+
+    .belief-heading h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .belief-heading p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .belief-content h3 {
+        font-size: 22px;
+    }
+
+    .belief-content p {
+        font-size: 15px;
+    }
+}

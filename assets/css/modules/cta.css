@@ -58,23 +58,33 @@
 
 /* Button Wrapper */
 .cta-banner-button {
-  margin-top: 36px;
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
-/* Button */
+/* Both Buttons */
 .cta-banner-button a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 180px;
-  padding: 16px 24px;
-  background: #d89d3e;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #fff;
-  font-family: "Inter", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    padding: 16px 24px;
+    background: #d89d3e;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.cta-banner-button a:hover {
+    background: #c58d34;
 }
 
 /* Tablet */
@@ -115,4 +125,16 @@
     width: 100%;
     max-width: 250px;
   }
+}
+
+@media (max-width: 576px) {
+    .cta-banner-button {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .cta-banner-button a {
+        width: 100%;
+        max-width: 250px;
+    }
 }

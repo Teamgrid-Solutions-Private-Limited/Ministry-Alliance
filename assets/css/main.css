@@ -6,10 +6,13 @@
 @import url(./modules/faq.css);
 @import url(./modules/blogfeeds.css);
 @import url(./modules/blogDetails.css);
-
 @import url(./modules/membershipSection.css);
 @import url(./modules/testimonialSection.css);
 @import url(./modules/footer.css);
+@import url(./modules/title-block.css);
+@import url(./modules/two-column-intro.css);
+@import url(./modules/belief-section.css);
+@import url(./modules/core-value.css);
 
 body {
   font-family: "Lora", serif;
