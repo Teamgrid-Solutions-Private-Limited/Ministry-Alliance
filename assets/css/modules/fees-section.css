@@ -1,0 +1,163 @@
+/*==============================
+Fees Section
+==============================*/
+
+.fees-section {
+    background: #E7E4DC;
+    padding: 96px 40px;
+}
+
+/*==============================
+Heading
+==============================*/
+
+.fees-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.fees-tag {
+    display: inline-block;
+    margin-bottom: 14px;
+    color: #707070;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.fees-heading h2 {
+    margin: 0;
+    color: #2A2A2A;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+/*==============================
+Cards
+==============================*/
+
+.fees-cards {
+    display: flex;
+    gap: 32px;
+}
+
+.fees-card {
+    flex: 1;
+    min-height: 212px;
+    padding: 48px;
+    border-radius: 10px;
+    border: 1px solid #DAD8D4;
+    background: #FFF;
+    box-shadow: 0 4px 10px rgba(0,0,0,.10);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+
+    text-align: center;
+}
+
+.fees-value {
+    color: #2A2A2A;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.fees-content {
+    max-width: 360px;
+}
+
+.fees-content p {
+    margin: 0;
+    color: #2A2A2A;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/*==============================
+Responsive
+==============================*/
+
+@media (max-width:991px) {
+
+    .fees-section {
+        padding: 80px 40px;
+    }
+
+    .fees-cards {
+        gap: 24px;
+    }
+
+    .fees-card {
+        padding: 40px 30px;
+    }
+
+    .fees-value {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    .fees-section {
+        padding: 60px 20px;
+    }
+
+    .fees-heading {
+        margin-bottom: 40px;
+    }
+
+    .fees-heading h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .fees-cards {
+        flex-direction: column;
+    }
+
+    .fees-card {
+        padding: 36px 24px;
+        min-height: auto;
+    }
+
+    .fees-value {
+        font-size: 52px;
+        line-height: 52px;
+    }
+
+    .fees-content p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .fees-heading h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .fees-value {
+        font-size: 46px;
+        line-height: 46px;
+    }
+
+    .fees-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}

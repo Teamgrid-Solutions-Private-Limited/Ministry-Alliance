@@ -12,6 +12,11 @@
 @import url(./modules/two-column-intro.css);
 @import url(./modules/belief-section.css);
 @import url(./modules/core-value.css);
+@import url(./modules/highlight_stats_section.css);
+@import url(./modules/content-block.css);
+@import url(./modules/split-content.css);
+@import url(./modules/process-section.css);
+@import url(./modules/fees-section.css);
 
 body {
   font-family: "Lora", serif;

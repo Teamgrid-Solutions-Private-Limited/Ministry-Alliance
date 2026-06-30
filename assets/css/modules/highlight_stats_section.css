@@ -1,0 +1,196 @@
+
+
+.history-section {
+    padding: 80px 40px;
+
+    background: #ffffff;
+}
+
+
+/*======================================
+Top Content
+======================================*/
+
+.history-content {
+    background: #0D4A5B;
+    padding: 77px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+}
+
+
+/*======================================
+Heading
+======================================*/
+
+.history-heading {
+    max-width: 650px;
+    margin-bottom: 32px;
+}
+
+.history-heading h2 {
+    margin: 0;
+    color: #FFF;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+
+/*======================================
+Description
+======================================*/
+
+.history-description {
+    max-width: 700px;
+    margin-bottom: 40px;
+}
+
+.history-description p {
+    margin: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.439px;
+}
+
+
+/*======================================
+Button
+======================================*/
+
+.history-button button {
+    border: none;
+    background: #1386B5;
+    color: #FFF;
+    padding: 16px 34px;
+    font-size: 16px;
+    font-family: Inter;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.history-button button:hover {
+    background: #0f7098;
+}
+
+
+/*======================================
+Statistics
+======================================*/
+
+.history-stats {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.history-stat-card {
+    flex: 1;
+    background: #E7E5DC;
+    min-height: 147px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+
+/*======================================
+Number
+======================================*/
+
+.history-stat-number {
+    margin-bottom: 6px;
+}
+
+.history-stat-number h3 {
+    margin: 0;
+    color: #2A2A2A;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+
+/*======================================
+Text
+======================================*/
+
+.history-stat-text p {
+    margin: 0;
+    color: #2A2A2A;
+    font-family: Inter;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+/*======================================
+Responsive
+======================================*/
+
+@media (max-width: 992px) {
+
+    .history-content {
+        padding: 60px;
+    }
+
+    .history-heading h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .history-stats {
+        flex-wrap: wrap;
+    }
+
+    .history-stat-card {
+        min-width: calc(50% - 8px);
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .history-section {
+        padding: 60px 20px;
+    }
+
+    .history-content {
+        padding: 50px 25px;
+    }
+
+    .history-heading h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .history-description p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .history-stats {
+        flex-direction: column;
+    }
+
+    .history-stat-card {
+        width: 100%;
+        min-height: 130px;
+    }
+
+    .history-stat-number h3 {
+        font-size: 46px;
+    }
+
+}

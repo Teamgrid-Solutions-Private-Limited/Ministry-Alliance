@@ -1,0 +1,215 @@
+/*==============================
+Process Section
+==============================*/
+
+.process-section {
+    width: 100%;
+    background: linear-gradient(180deg, #003D4E 0%, #052933 100%);
+    padding: 67px 20px 80px;
+}
+
+.process-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*==============================
+Heading
+==============================*/
+
+.process-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.process-tag {
+    display: block;
+    margin-bottom: 14px;
+    color: #6FC1D8;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+}
+
+.process-heading h2 {
+    margin: 0;
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+/*==============================
+Steps
+==============================*/
+
+.process-steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+/*==============================
+Card
+==============================*/
+
+.process-card {
+    width: 268px;
+    height: 184px;
+
+    border-radius: 10px;
+    border: 1px solid #ABCB7C;
+    background: #6F8450;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 24px 40px;
+    box-sizing: border-box;
+}
+
+.card-number {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+
+.card-text p {
+    margin: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.449px;
+}
+
+/*==============================
+Arrow
+==============================*/
+
+
+
+/*==============================
+Button
+==============================*/
+
+.process-btn a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    background: #007799;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.process-btn a:hover {
+    background: #056ea4;
+}
+
+/*==============================
+Responsive
+==============================*/
+
+@media (max-width:992px){
+
+    .process-heading h2{
+        font-size:30px;
+        line-height:38px;
+    }
+
+    .process-steps{
+        gap:20px;
+    }
+
+    .process-card{
+        width:230px;
+        height:170px;
+    }
+
+    .card-number{
+        font-size:52px;
+    }
+
+    .card-text p{
+        font-size:18px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .process-section{
+        padding:60px 20px;
+    }
+
+    .process-heading{
+        margin-bottom:40px;
+    }
+
+    .process-heading h2{
+        font-size:28px;
+        line-height:36px;
+    }
+
+    .process-steps{
+        flex-direction:column;
+    }
+
+    .step-arrow{
+        transform:rotate(90deg);
+    }
+
+    .process-card{
+        width:100%;
+        max-width:350px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .process-heading h2{
+        font-size:24px;
+        line-height:32px;
+    }
+
+    .process-card{
+        height:160px;
+        padding:20px;
+    }
+
+    .card-number{
+        font-size:46px;
+        line-height:46px;
+    }
+
+    .card-text p{
+        font-size:17px;
+        line-height:26px;
+    }
+
+}
